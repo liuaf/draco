@@ -1,0 +1,39 @@
+{
+  "runningMode": "Megvii,",
+  "runningModeAll": "Megvii,OnOffline,Qingniao,HiKivision,Dahua",
+  "thirdPartyServer": [
+    {
+      "vendor": "HiKivision",
+      "ip": "127.0.0.1",
+      "port": 8000,
+      "username": "admin",
+      "password": "a12345678",
+      "host": "",
+      "ak": "1234567890abcdef",
+      "sk": "HtYkl1C9RiZoC7T5nx4biYrhb6jm2vii"
+    }
+  ],
+  "devices": [
+    {
+      "name": "1921802034030105",
+      "ip": "192.168.2.2",
+      "port": 8000,
+      "username": "admin",
+      "password": "a12345678",
+      "type": 31
+    },
+    {
+      "name": "1921802034030106",
+      "ip": "192.168.2.3",
+      "port": 8000,
+      "username": "admin",
+      "password": "a12345678",
+      "type": 31
+    }
+  ],
+  "megvii": {
+    "areaTenantMapping": "067f956f1f3c4c669b7b9677e3bc51b8:2c907adb8a48d244018a4a2e8554105d:郴州711时光小镇,0d16646dada649b58b2ffa89e739c273:2c9292498886a2ee01888dcbfceb01dd:万楼青年码头,491b3cdd34d54f8d9cfe4fe4781eea13:8a4a700991e1e0370191ef38e02c14b9:衡阳东洲岛"
+  },
+  "mailTo": "2c907adb8a48d244018a4a2e8554105d:381351310@qq.com,38580814@qq.com;2c9292498886a2ee01888dcbfceb01dd:381351310@qq.com"
+}
+

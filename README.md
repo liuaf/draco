@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=artemis-http-client-1.1.12.RELEASE.jar -DgroupId=com.hikvision.ga -DartifactId=artemis-http-client -Dversion=1.1.12.RELEASE -Dpackaging=jar

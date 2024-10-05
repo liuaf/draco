@@ -1,0 +1,34 @@
+server:
+  port: 5001
+  tomcat:
+    basedir: tmp
+
+spring:
+  application:
+    name: draco
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/draco?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: Aup6g/t;3
+    initialize: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+
+
+mqtt:
+  #serverURIs: tcp://8.134.198.186
+  serverURIs: tcp://127.0.0.1
+  username: lyra
+  password: lyramqtt
+  client:
+    inboundclientid: in_clientid
+    outboundclientid: out_clientid
+    topics: application/draco
+    commandTopics: command/Request
